@@ -156,7 +156,7 @@ variable "tag" {
   type        = string
   description = "The Docker image tag for TFE. Must be explicitly set as no latest tag is available"
   # renovate: datasource=custom.terraform-enterprise depName=terraform-enterprise versioning=loose
-  default = "v202411-2"
+  default = "v202502-1"
 }
 
 variable "docker_registry_username" {
